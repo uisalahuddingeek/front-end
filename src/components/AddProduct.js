@@ -19,7 +19,7 @@ const addProductData = async ()=>{
         });
         result = await result.json();
         console.log("product saved", result);
-        navigate('/')
+        navigate('/');
 }
 return (
     <div className="add-product-section">
